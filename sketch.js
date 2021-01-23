@@ -4,8 +4,8 @@ var backgroundImg, dogImg;
 
 function preload()
 {
-  dogImg = loadImage("Dog.png");
-  happyDog = loadImage("happydog.png");  
+  dogImg = loadImage("images/dogImg.png");
+  happyDog = loadImage("images/dogImg1.png");  
   //backgroundImg = loadImage("bg.jpg");
   
 }
@@ -57,5 +57,3 @@ function readStock(data){
     foodS = data.val();
     
 }
-
-
